@@ -1,10 +1,11 @@
-import { TopBackground } from "./components/DodyBackground/TopBackground";
+import { TopBackground } from "./components/hero/TopBackground";
 import { NavBar } from "./components/NavBar";
+import { Sections } from "./components/Sections";
 
 export default function Home() {
   return (
     <div className="relative overflow-clip " id="home"> 
-      <div className="w-screen h-screen top-8"></div>
+      <Sections />
       <NavBar />
       <TopBackground />
     </div>
